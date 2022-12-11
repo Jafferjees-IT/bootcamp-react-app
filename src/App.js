@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
     <Dinner dishname="Haleem" sweet="Kheer"/>
-    <Dinner dishname="karhai" sweet="Jalibi"/>
+    <Dinner dishname="karhai" sweet="Gulab Jamun"/>
     <Dinner dishname="Daal" sweet="Gajar ka Halwa"/>
       <h1>Hello World!</h1>
       </header>
