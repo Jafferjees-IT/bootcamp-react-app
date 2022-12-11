@@ -1,17 +1,23 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
-import Dinner from './dinner.js';
+
 
 
 function App() {
+  
+  let [count, setCount] = useState(1);
   return (
     <div className="App">
       <header className="App-header">
-    <Dinner dishname="Haleem" sweet="Kheer"/>
-    <Dinner dishname="karhai" sweet="Gulab Jamun"/>
-    <Dinner dishname="Daal" sweet="Gajar ka Halwa"/>
-      <h1>Hello World!</h1>
+  
+      <h1>Value of counter variable is : {count} </h1>
+      <button onClick={
+        ()=> setCount(count +1)
+      }>
+        Update counter
+      </button>
       </header>
+      
     </div>
   );
 }
