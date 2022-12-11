@@ -12,7 +12,7 @@ function App() {
   
       <h1>Value of counter variable is : {count} </h1>
       <button onClick={
-        ()=> setCount(count++)
+        ()=> setCount(count+1)
       }>
         Update counter
       </button>
