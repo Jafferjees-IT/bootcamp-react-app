@@ -46,3 +46,11 @@
   margin: 10px;
   border-style: none;
 }
+
+.box {
+  height: 500px;
+}
+
+.dayLight {
+  background-color: yellowgreen;
+}
