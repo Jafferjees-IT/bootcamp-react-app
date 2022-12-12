@@ -40,7 +40,8 @@
 
 .App-Button {
 
-  background-color: aqua;
-  font-size: 14px;
-  padding: 5px, 5px, 5px, 5px;
+  background-color: rgb(221, 186, 29);
+  font-size: 22px;
+  padding: 10px, 10px, 10px, 10px;
+  margin: 10px, 10px, 10px, 10px;
 }
