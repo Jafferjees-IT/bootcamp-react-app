@@ -21,6 +21,9 @@ function App() {
             else
               setMorning(true)
 
+
+replace if then with  setMorning(!isMorning)   ! toggled the value 
+
           }
         }>
           Update counter
@@ -32,3 +35,7 @@ function App() {
 }
 
 export default App;
+
+
+
+

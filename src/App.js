@@ -10,21 +10,18 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Day time = {isMorning ? 'Morning' : 'Night'}</h1>
+        <h1 className={`App-Button ${isMorning ? 'dayLight' : 'App-Button'}`}>Number Type = {isMorning ? 'Odd' : 'Even'}</h1>
         <h1>Value of counter variable is : {count} </h1>
         <Counter countervalue={count} />
-        <button className={`App-Button ${isMorning ? 'dayLight' : 'App-Button'}`} onClick={
+        <button className='App-Button' onClick={
           () => {
             setCount(count + 1)
-            if (isMorning === true)
-              setMorning(false)
-            else
-              setMorning(true)
-
+            setMorning(!isMorning)
           }
         }>
           Update counter
         </button>
+
       </header>
 
     </div>
